@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.left-column img {
+    width: 350px; /* Adjust size as needed */
+    height: auto;
+}
+
+.right-column {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 60px; /* Increased padding */
+    width: 200px; /* Increased width */
+    height: 400px;
+}
+
+.signup-box {
+    text-align: center;
+     /* Ensure full width within the right-column */
+}
+
+.signup-box img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.signup-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

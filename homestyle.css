@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.logo {
+    width: 150px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+}
+.title {
+    margin-left: 10px;
+}
+.auth-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.signup {
+    background-color: rgba(2, 76, 2, 0.826);
+    color: white;
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header-line {
+    height: 0.05209px;
+    background-color: silver;
+}
+.content {
+    padding: 50px;
+}
+
+.two-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 1;
+}
+
+.content h2 {
+    font-size: 50px;
+}
+
+.subtext {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.content-image {
+    width: 95%; /* Adjust size as needed */
+    height: auto;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.content-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.content-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* Style the dropdown button */
+/* Add this CSS for dropdown button */
+/* Add this CSS for dropdown button */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the dropdown button */
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 40px; /* Adjust distance from the top */
+    left: 0; /* Align with the left edge of the dropdown button */
+  }
+  
+  /* Style links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Show the dropdown content when either the dropdown or the dropdown content is hovered */
+  .dropdown:hover .dropdown-content,
+  .dropdown-content:hover {
+    display: block;
+  }
+  
+  

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Recommendation System</title>
+    <link rel="stylesheet" type="text/css" href="course.css">
+</head>
+<body>
+    <div class="container">
+        <div id="image">
+            <!-- You can put your image here -->
+            <img src="course.jpg" alt="Image" style="max-width: 100%; border-radius: 5px;">
+        </div>
+        <div id="recommendations">
+            <h1>Career Recommendation System</h1>
+            <form id="skillForm"  action="http://127.0.0.1:5000/coursepred" method="post">
+                <label for="skills">Enter your skills:</label><br>
+                <input type="text" id="skills" name="skills" required><br><br>
+                <button type="submit" name="course_recommend_button">Get Course Recommendations</button>
+
+            </form>
+            <div id="recommendedCourses">
+                <!-- Recommended courses will be displayed here -->
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="course.js"></script>
+</body>
+</html>

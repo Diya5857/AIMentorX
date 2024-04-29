@@ -1,0 +1,33 @@
+<!-- signup.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="signup-container">
+        <div class="left-column">
+            <img src="signup.jpg" alt="Image">
+        </div>
+        <div class="right-column">
+            <div class="signup-box">
+                <img src="logo1.png" alt="AI Mentor X Logo">
+                <h2>AI Mentor X</h2>
+                <form action="{{ url_for('signup') }}" method="post">
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                    <input type="password" name="password" placeholder="Enter your password" required>
+                    <div class="terms">
+                        <input type="checkbox" id="terms-checkbox" required>
+                        <label for="terms-checkbox">By registering you agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

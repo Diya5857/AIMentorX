@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Prediction System</title>
+    <link rel="stylesheet" type="text/css" href="course.css">
+</head>
+<body>
+    <div class="container">
+        <div id="image">
+            <!-- You can put your image here -->
+            <img src="salary.jpg" alt="Image" style="max-width: 100%; border-radius: 5px;">
+        </div>
+        <div id="recommendations">
+            <h1>Salary Prediction System</h1>
+            <form id="predictionForm" action="http://127.0.0.1:5000/" method="post">
+                <label for="jobTitle">Enter your job title:</label><br>
+                <input type="text" id="jobTitle" name="jobTitle" required><br><br>
+                <label for="age">Enter your age:</label><br>
+                <input type="number" id="age" name="age" required><br><br>
+                <label for="educationLevel">Select your education level:</label><br>
+                <select id="educationLevel" name="educationLevel" required>
+                    <option value="Bachelor's">Bachelor's</option>
+                    <option value="Master's">Master's</option>
+                    <option value="PhD">PhD</option>
+                </select><br><br>
+                <label for="experience">Enter years of experience:</label><br>
+                <input type="number" id="experience" name="experience" required><br><br>
+                <button type="submit">Predict</button>
+            </form>
+            <div id="predictionResult" class="container">
+                <!-- Placeholder for prediction result -->
+                <!-- prediction_placeholder -->
+            </div>
+            
+        </div>
+    </div>
+
+    <script src=""></script>
+</body>
+</html>
